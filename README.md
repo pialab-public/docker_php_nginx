@@ -20,8 +20,7 @@ Docker-Composeを利用し、PHP開発環境を構築します。
 # How To Run
 
 ```bash
-docker-machine up
-eval $(docker-machine env)
+docker-compose build
 docker-compose up -d
 ```
 
